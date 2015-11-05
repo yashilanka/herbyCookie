@@ -9,7 +9,9 @@ Installation
 Include the file
 ----
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>    // jQuery
+    // jQuery
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    // herbyCookie.js
     <script type="text/javascript" src="js/herbyCookie.min.js"></script>
 
 Start the plugin
@@ -26,7 +28,7 @@ Personalize the options
 
     btnText: "Got it!",              // The text of the button
     policyText: "Privacy policy",    // The text of the link
-    text: "We use cookies to ensure you get the best experience on our website, if you continue to browse you'll be acconsent with our",                 // The text
+    text: "We use cookies to ensure you get the best experience on our website, if you continue to browse you'll be acconsent with our",
     scroll: false,                   // Accept on scroll?
     link: "/policy.html"             // The link to the policy
 
