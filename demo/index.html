@@ -2,7 +2,17 @@
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="herbyCookie.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(document).herbyCookie({
+            btnText: "Got it!",
+            policyText: "Privacy policy",
+            text: "We use cookies to ensure you get the best experience on our website, if you continue to browse you'll be acconsent with our",
+            scroll: false,
+            link: "/policy.html"
+            });
+        });
+    </script>
 </head>
 <body>
 </body>
