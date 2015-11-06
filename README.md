@@ -26,6 +26,7 @@ Start the plugin
 Personalize the options
 ----
 
+    style: "dark",                   // The color style ("dark" or "light")
     btnText: "Got it!",              // The text of the button
     policyText: "Privacy policy",    // The text of the link
     text: "We use cookies to ensure you get the best experience on our website, if you continue to browse you'll be acconsent with our",
