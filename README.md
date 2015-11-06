@@ -2,6 +2,11 @@ herbyCookie
 =====
 
  > An easy jQuery plugin asking at user for cookie allowing a website to comply with the EU cookie law.
+ 
+Demo
+====
+
+There is a [Demo](http://paolobasso99.github.io/herbyCookie/).
 
 Installation
 ====
