@@ -6,7 +6,7 @@ herbyCookie
 Installation
 ====
 
-Include the file
+Include the files
 ----
 
     // jQuery
@@ -24,16 +24,64 @@ Start the plugin
     });
 
 Personalize the options
+====
+
+style
 ----
 
-    style: "dark",                   // The color style ("dark" or "light")
-    btnText: "Got it!",              // The text of the button
-    policyText: "Privacy policy",    // The text of the link
-    text: "We use cookies to ensure you get the best experience on our website, if you continue to browse you'll be acconsent with our",
-    scroll: false,                   // Accept on scroll?
-    link: "/policy.html"             // The link to the policy
+    style: "dark",
 
-COPYRIGHT
+Change the color style of herbyCookie.
+
+Value: "dark" or "light".
+
+btnText
+----
+
+    btnText: "Got it!",
+
+Change the text of the "OK" button.
+
+Value: "string".
+
+policyText
+----
+
+    policyText: "Privacy policy",
+
+Change the text of the link.
+
+Value: "string".
+
+text
+----
+
+    text: "We use cookies to ensure you get the best experience on our website, if you continue to browse you'll be acconsent with our",
+
+Change the text.
+
+Value: "string".
+
+scroll
+----
+
+    scroll: false,
+
+Auot-accept on scroll.
+
+Value: bool.
+
+link
+----
+
+    link: "/policy.html",
+
+Change the link.
+
+Value: "string".
+
+
+Copyright
 ====
 
 herbyCookie is released under the [MIT License](https://opensource.org/licenses/MIT).
