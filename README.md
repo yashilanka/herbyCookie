@@ -38,4 +38,4 @@ COPYRIGHT
 
 herbyCookie is released under the [MIT License](https://opensource.org/licenses/MIT).
 
-Copyright © Paolo Basso;
+Copyright © Paolo Basso.
