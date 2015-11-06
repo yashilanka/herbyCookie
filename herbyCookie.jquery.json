@@ -1,0 +1,35 @@
+{
+  "name": "herbyCookie",
+  "title": "jQuery herbyCookie",
+  "description": "An easy jQuery plugin asking at user for cookie allowing a website to comply with the EU cookie law.",
+  "keywords": [
+    "jquery-plugins",
+    "herbyCookie",
+    "cookie",
+    "cookie-consent"
+  ],
+  "version": "1.0",
+  "author": {
+    "name": "Paolo Basso",
+    "url": "https://github.com/paolobasso99"
+  },
+  "maintainers": [
+    {
+      "name": "Paolo Basso",
+      "url": "https://github.com/paolobasso99"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "bugs": "https://github.com/paolobasso99/herbyCookie/issues",
+  "homepage": "http://paolobasso99.github.io/herbyCookie/",
+  "docs": "http://paolobasso99.github.io/herbyCookie/",
+  "download": "https://github.com/paolobasso99/herbyCookie/zipball/master",
+  "dependencies": {
+    "jquery": ">=2.0"
+  }
+}
