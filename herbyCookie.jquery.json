@@ -6,7 +6,8 @@
     "jquery-plugins",
     "herbyCookie",
     "cookie",
-    "cookie-consent"
+    "cookie-consent",
+    "jquery"
   ],
   "version": "1.0",
   "author": {
