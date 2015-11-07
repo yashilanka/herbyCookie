@@ -297,6 +297,17 @@ textarea {
 }
 }
 }
+.socialWidget {
+    margin-top: 10px;
+    & * {
+        box-sizing: content-box;
+    }
+    & .fb-share-button {
+        & span {
+            vertical-align: top !important;
+        }
+    }
+}
 
 // Responsive Part
 @media all and (min-width: 64em) {
@@ -372,4 +383,25 @@ textarea {
     footer {
         font-size: 0.9rem;
     }
+}
+// Demo responsive part
+@media all and (max-width: 900px) {
+    .demo {
+    & input,  select, textarea {
+        width: 60%;    
+    }
+}
+}
+@media all and (max-width: 42em) {
+.demo {
+    text-align: left;
+    &  .dSpan {
+        width:auto;
+        display: block;
+    }
+    & input,  select, textarea {
+        margin-left: 20px;
+        width:90%;
+    }
+}
 }
